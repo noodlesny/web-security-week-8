@@ -29,7 +29,7 @@ Vulnerability #2: SQL Injection (SQLi): Using SQLi adding a sleep query allows a
 Vulnerability #1: Cross Site Scripting: Input in the comment box isn't sanitized, so adding a script to a comment allows for an alert box to pop up when a user logs in and clicks on feedback. 
 
 Vulnerability #2: User Enumeration: There is different styling (normal and bold font) for log in errors of valid and invalid usernames.
-
+<img src= "https://github.com/noodlesny/web-security-week-8/blob/master/myGifs/Week%208-Exploit%20Blue%20Real%202.gif" >
 
 ## Red
 
