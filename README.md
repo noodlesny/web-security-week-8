@@ -18,7 +18,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: Session Hijacking/Fixation: When logging in and out, the session token doesn't change as it should.
+Vulnerability #1: Session Hijacking/Fixation: Changing the target's session ID to the attacker's logged in session ID allows the target access to admin features without first logging in.
+<img src ="https://github.com/noodlesny/web-security-week-8/blob/master/myGifs/Week%208-Exploit%20Blue%20Really%20Really%20Real.gif" >
 
 Vulnerability #2: SQL Injection (SQLi): Using SQLi adding a sleep query allows a delay in the page loading.
 <img src= "https://github.com/noodlesny/web-security-week-8/blob/master/myGifs/Week%208-Exploit%20Blue%20Real%202.gif" >
