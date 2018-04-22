@@ -2,7 +2,7 @@
 
 # Project 8 - Pentesting Live Targets
 
-Time spent: **4** hours spent in total
+Time spent: **7** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -36,9 +36,11 @@ Vulnerability #2: User Enumeration: There is different styling (normal and bold 
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR): The ID for each salesman is visible in the URL, by manipulating the numbers, you are able to access 2 salesmen, 1 that had been terminated and 1 that is not supposed to be public until a later date.
+
 <img src= "https://github.com/noodlesny/web-security-week-8/blob/master/myGifs/Week%208-Exploit%20Red%20Real%201.gif?raw=true" >
 
 Vulnerability #2: Cross-Site Request Forgery (CSRF): Submitting the url for an html file with malicious code into the feedback page tricks the user into altering data on the salesperson page.
+
 <img src= "https://github.com/noodlesny/web-security-week-8/blob/master/myGifs/Week%208-Exploit%20Red%20Real%202.gif">
 
 ## Notes
