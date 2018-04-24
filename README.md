@@ -43,4 +43,9 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF): Submitting the url for an h
 
 <img src= "https://github.com/noodlesny/web-security-week-8/blob/master/myGifs/Week%208-Exploit%20Red%20Real%202.gif">
 
+## Bonus: 
+Green- XSS: 
+Using scripting in the feedback textbox you can direct the user to a new URL.
+<img src= "https://github.com/noodlesny/web-security-week-8/blob/master/myGifs/Week%208-Exploit%20Bonus%20Green%20%20Real%201.gif">
+
 ## Notes
